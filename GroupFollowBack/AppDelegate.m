@@ -7,16 +7,39 @@
 //
 
 #import "AppDelegate.h"
+#import "UICKeyChainStore.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+{
+    UICKeyChainStore* wrapper;
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    wrapper = [UICKeyChainStore keyChainStore];
+    
+    if(![wrapper stringForKey:@"ff"])
+    {
+        [wrapper setString:[NSString stringWithFormat:@"%f###30",[[NSDate date] timeIntervalSince1970]]  forKey:@"ff"];
+        [wrapper synchronize];
+    }else
+    {
+        NSString* string = [wrapper stringForKey:@"ff"];
+        NSTimeInterval lastInterval = [[[string componentsSeparatedByString:@"###"] objectAtIndex:0] floatValue];
+        NSDate* lastDate = [NSDate dateWithTimeIntervalSince1970:lastInterval];
+        NSDate * originalDate = [NSDate date];
+        NSTimeInterval space = [originalDate timeIntervalSinceDate:lastDate];
+        
+        if(space >= 3600)
+        {
+            [wrapper setString:[NSString stringWithFormat:@"%f###30",[[NSDate date] timeIntervalSince1970]]  forKey:@"ff"];
+            [wrapper synchronize];
+        }
+    }
     return YES;
 }
 

@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F43765E7CD2B481C0C18272 /* libPods-GroupFollowBack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5048AE32DA9CD623B4E555 /* libPods-GroupFollowBack.a */; };
 		E88D3BB11C34523F0074CC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E88D3BB01C34523F0074CC16 /* main.m */; };
 		E88D3BB41C34523F0074CC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E88D3BB31C34523F0074CC16 /* AppDelegate.m */; };
 		E88D3BB71C34523F0074CC16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E88D3BB61C34523F0074CC16 /* ViewController.m */; };
 		E88D3BBA1C34523F0074CC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88D3BB81C34523F0074CC16 /* Main.storyboard */; };
 		E88D3BBC1C34523F0074CC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88D3BBB1C34523F0074CC16 /* Assets.xcassets */; };
 		E88D3BBF1C34523F0074CC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88D3BBD1C34523F0074CC16 /* LaunchScreen.storyboard */; };
+		E88D3BEA1C353B8C0074CC16 /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E88D3BE91C353B8C0074CC16 /* FollowViewController.m */; };
+		E88D3BEC1C3553410074CC16 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BEB1C3553410074CC16 /* Twitter.framework */; };
+		E88D3BEE1C3553450074CC16 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BED1C3553450074CC16 /* Accounts.framework */; };
+		E88D3BF01C3556BA0074CC16 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BEF1C3556BA0074CC16 /* AdSupport.framework */; };
+		E88D3BF21C3556BF0074CC16 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BF11C3556BF0074CC16 /* AudioToolbox.framework */; };
+		E88D3BF41C3556D70074CC16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BF31C3556D70074CC16 /* CoreGraphics.framework */; };
+		E88D3BF61C3556DD0074CC16 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BF51C3556DD0074CC16 /* CoreMedia.framework */; };
+		E88D3BF81C3556E40074CC16 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BF71C3556E40074CC16 /* CoreTelephony.framework */; };
+		E88D3BFB1C3556EB0074CC16 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BF91C3556EB0074CC16 /* EventKit.framework */; };
+		E88D3BFC1C3556EB0074CC16 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BFA1C3556EB0074CC16 /* EventKitUI.framework */; };
+		E88D3BFE1C3556F10074CC16 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BFD1C3556F10074CC16 /* MessageUI.framework */; };
+		E88D3C001C3556F70074CC16 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3BFF1C3556F70074CC16 /* StoreKit.framework */; };
+		E88D3C021C3556FF0074CC16 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3C011C3556FF0074CC16 /* SystemConfiguration.framework */; };
+		E88D3C0C1C3557510074CC16 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E88D3C031C3557510074CC16 /* GoogleMobileAds.framework */; };
+		E88D3C0D1C3557510074CC16 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = E88D3C0B1C3557510074CC16 /* README.txt */; };
+		E88FC0791C35965900A63E20 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E88FC0781C35965900A63E20 /* UICKeyChainStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		272BFFF198629E80CAD95B2F /* Pods-GroupFollowBack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupFollowBack.release.xcconfig"; path = "Pods/Target Support Files/Pods-GroupFollowBack/Pods-GroupFollowBack.release.xcconfig"; sourceTree = "<group>"; };
+		BE5048AE32DA9CD623B4E555 /* libPods-GroupFollowBack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GroupFollowBack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88D3BAC1C34523F0074CC16 /* GroupFollowBack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupFollowBack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E88D3BB01C34523F0074CC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E88D3BB21C34523F0074CC16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +45,31 @@
 		E88D3BBB1C34523F0074CC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E88D3BBE1C34523F0074CC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E88D3BC01C34523F0074CC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E88D3BE81C353B8C0074CC16 /* FollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		E88D3BE91C353B8C0074CC16 /* FollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		E88D3BEB1C3553410074CC16 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		E88D3BED1C3553450074CC16 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E88D3BEF1C3556BA0074CC16 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E88D3BF11C3556BF0074CC16 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E88D3BF31C3556D70074CC16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E88D3BF51C3556DD0074CC16 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E88D3BF71C3556E40074CC16 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E88D3BF91C3556EB0074CC16 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		E88D3BFA1C3556EB0074CC16 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		E88D3BFD1C3556F10074CC16 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E88D3BFF1C3556F70074CC16 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E88D3C011C3556FF0074CC16 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E88D3C031C3557510074CC16 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		E88D3C051C3557510074CC16 /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		E88D3C061C3557510074CC16 /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		E88D3C071C3557510074CC16 /* GADMediationAdRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMediationAdRequest.h; sourceTree = "<group>"; };
+		E88D3C081C3557510074CC16 /* GADMEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		E88D3C091C3557510074CC16 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		E88D3C0A1C3557510074CC16 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		E88D3C0B1C3557510074CC16 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		E88FC0771C35965900A63E20 /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		E88FC0781C35965900A63E20 /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		FD0D31D17CBF86DE310CD2C7 /* Pods-GroupFollowBack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupFollowBack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GroupFollowBack/Pods-GroupFollowBack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +77,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88D3C021C3556FF0074CC16 /* SystemConfiguration.framework in Frameworks */,
+				E88D3C001C3556F70074CC16 /* StoreKit.framework in Frameworks */,
+				E88D3C0C1C3557510074CC16 /* GoogleMobileAds.framework in Frameworks */,
+				E88D3BFE1C3556F10074CC16 /* MessageUI.framework in Frameworks */,
+				E88D3BFB1C3556EB0074CC16 /* EventKit.framework in Frameworks */,
+				E88D3BFC1C3556EB0074CC16 /* EventKitUI.framework in Frameworks */,
+				E88D3BF81C3556E40074CC16 /* CoreTelephony.framework in Frameworks */,
+				E88D3BF61C3556DD0074CC16 /* CoreMedia.framework in Frameworks */,
+				E88D3BF41C3556D70074CC16 /* CoreGraphics.framework in Frameworks */,
+				E88D3BF21C3556BF0074CC16 /* AudioToolbox.framework in Frameworks */,
+				E88D3BF01C3556BA0074CC16 /* AdSupport.framework in Frameworks */,
+				E88D3BEE1C3553450074CC16 /* Accounts.framework in Frameworks */,
+				E88D3BEC1C3553410074CC16 /* Twitter.framework in Frameworks */,
+				1F43765E7CD2B481C0C18272 /* libPods-GroupFollowBack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43B341744385224D02B65376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0D31D17CBF86DE310CD2C7 /* Pods-GroupFollowBack.debug.xcconfig */,
+				272BFFF198629E80CAD95B2F /* Pods-GroupFollowBack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D07F2F1E08F7F01B90D203B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE5048AE32DA9CD623B4E555 /* libPods-GroupFollowBack.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E88D3BA31C34523F0074CC16 = {
 			isa = PBXGroup;
 			children = (
+				E88D3C011C3556FF0074CC16 /* SystemConfiguration.framework */,
+				E88D3BFF1C3556F70074CC16 /* StoreKit.framework */,
+				E88D3BFD1C3556F10074CC16 /* MessageUI.framework */,
+				E88D3BF91C3556EB0074CC16 /* EventKit.framework */,
+				E88D3BFA1C3556EB0074CC16 /* EventKitUI.framework */,
+				E88D3BF71C3556E40074CC16 /* CoreTelephony.framework */,
+				E88D3BF51C3556DD0074CC16 /* CoreMedia.framework */,
+				E88D3BF31C3556D70074CC16 /* CoreGraphics.framework */,
+				E88D3BF11C3556BF0074CC16 /* AudioToolbox.framework */,
+				E88D3BEF1C3556BA0074CC16 /* AdSupport.framework */,
+				E88D3BED1C3553450074CC16 /* Accounts.framework */,
+				E88D3BEB1C3553410074CC16 /* Twitter.framework */,
 				E88D3BAE1C34523F0074CC16 /* GroupFollowBack */,
 				E88D3BAD1C34523F0074CC16 /* Products */,
+				43B341744385224D02B65376 /* Pods */,
+				D07F2F1E08F7F01B90D203B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +147,16 @@
 		E88D3BAE1C34523F0074CC16 /* GroupFollowBack */ = {
 			isa = PBXGroup;
 			children = (
+				E88FC0771C35965900A63E20 /* UICKeyChainStore.h */,
+				E88FC0781C35965900A63E20 /* UICKeyChainStore.m */,
+				E88D3C031C3557510074CC16 /* GoogleMobileAds.framework */,
+				E88D3C041C3557510074CC16 /* Mediation Adapters */,
 				E88D3BB21C34523F0074CC16 /* AppDelegate.h */,
 				E88D3BB31C34523F0074CC16 /* AppDelegate.m */,
 				E88D3BB51C34523F0074CC16 /* ViewController.h */,
 				E88D3BB61C34523F0074CC16 /* ViewController.m */,
+				E88D3BE81C353B8C0074CC16 /* FollowViewController.h */,
+				E88D3BE91C353B8C0074CC16 /* FollowViewController.m */,
 				E88D3BB81C34523F0074CC16 /* Main.storyboard */,
 				E88D3BBB1C34523F0074CC16 /* Assets.xcassets */,
 				E88D3BBD1C34523F0074CC16 /* LaunchScreen.storyboard */,
@@ -79,6 +174,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E88D3C041C3557510074CC16 /* Mediation Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				E88D3C051C3557510074CC16 /* GADMAdNetworkAdapterProtocol.h */,
+				E88D3C061C3557510074CC16 /* GADMAdNetworkConnectorProtocol.h */,
+				E88D3C071C3557510074CC16 /* GADMediationAdRequest.h */,
+				E88D3C081C3557510074CC16 /* GADMEnums.h */,
+				E88D3C091C3557510074CC16 /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				E88D3C0A1C3557510074CC16 /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
+				E88D3C0B1C3557510074CC16 /* README.txt */,
+			);
+			path = "Mediation Adapters";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E88D3BC31C34523F0074CC16 /* Build configuration list for PBXNativeTarget "GroupFollowBack" */;
 			buildPhases = (
+				1EB12A1FE0D1D9CB7D8C8096 /* Check Pods Manifest.lock */,
 				E88D3BA81C34523F0074CC16 /* Sources */,
 				E88D3BA91C34523F0074CC16 /* Frameworks */,
 				E88D3BAA1C34523F0074CC16 /* Resources */,
+				3D342728C63092DE0530BDCB /* Embed Pods Frameworks */,
+				DD2F3B251E6E546E8769CA06 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,11 +250,60 @@
 			files = (
 				E88D3BBF1C34523F0074CC16 /* LaunchScreen.storyboard in Resources */,
 				E88D3BBC1C34523F0074CC16 /* Assets.xcassets in Resources */,
+				E88D3C0D1C3557510074CC16 /* README.txt in Resources */,
 				E88D3BBA1C34523F0074CC16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EB12A1FE0D1D9CB7D8C8096 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D342728C63092DE0530BDCB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupFollowBack/Pods-GroupFollowBack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2F3B251E6E546E8769CA06 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GroupFollowBack/Pods-GroupFollowBack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E88D3BA81C34523F0074CC16 /* Sources */ = {
@@ -152,6 +313,8 @@
 				E88D3BB71C34523F0074CC16 /* ViewController.m in Sources */,
 				E88D3BB41C34523F0074CC16 /* AppDelegate.m in Sources */,
 				E88D3BB11C34523F0074CC16 /* main.m in Sources */,
+				E88D3BEA1C353B8C0074CC16 /* FollowViewController.m in Sources */,
+				E88FC0791C35965900A63E20 /* UICKeyChainStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +413,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -259,10 +422,20 @@
 		};
 		E88D3BC41C34523F0074CC16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0D31D17CBF86DE310CD2C7 /* Pods-GroupFollowBack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GroupFollowBack",
+				);
 				INFOPLIST_FILE = GroupFollowBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GroupFollowBack",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = arabdevs.GroupFollowBack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -270,10 +443,20 @@
 		};
 		E88D3BC51C34523F0074CC16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 272BFFF198629E80CAD95B2F /* Pods-GroupFollowBack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GroupFollowBack",
+				);
 				INFOPLIST_FILE = GroupFollowBack/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GroupFollowBack",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = arabdevs.GroupFollowBack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -298,6 +481,7 @@
 				E88D3BC51C34523F0074CC16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
